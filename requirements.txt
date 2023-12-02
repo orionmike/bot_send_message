@@ -1,0 +1,8 @@
+colorama==0.4.6
+fastapi==0.104.1
+loguru==0.7.2
+pydantic==2.5.2
+Requests==2.31.0
+SQLAlchemy==2.0.22
+toml==0.10.2
+uvicorn==0.24.0.post1

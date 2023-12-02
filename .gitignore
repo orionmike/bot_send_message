@@ -28,8 +28,6 @@ src/logs/
 # other
 *.zip
 *.exe
-*.txt
-
 
 # config
 config.toml
