@@ -1,0 +1,10 @@
+[utils]
+console_indent = '...'
+
+[db_sqlite]
+db_dir = 'db'
+db_file = 'db.sqlite3'
+
+[telegram]
+bot_token = 'bot_token'
+user_id = 1234567890
