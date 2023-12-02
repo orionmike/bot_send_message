@@ -12,9 +12,9 @@ router = APIRouter(prefix="/api/message", tags=["message"])
 
 @router.post("/send")
 async def send_message(message: SMessage):
-    print(message)
+    # print(message)
 
-    status_code = bot_send_message(TG_USER_ID, message.text)
+    status_code = bot_send_message(TG_USER_ID, message)
     save_message_db(message, status_code)
 
     return {
